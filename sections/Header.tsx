@@ -43,11 +43,11 @@ export default function Header({
   },
 }: Nav) {
   return (
-    <nav class="drawer drawer-end">
+    <nav class="drawer drawer-end relative">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
+      <div class="drawer-content container lg:px-5 px-4 flex gap-8 items-center justify-between py-4 lg:mt-4 bg-[#0000007d] rounded lg:py-5 fixed right-0 left-0 z-50">
         <a href="/">
           <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
         </a>
