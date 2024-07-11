@@ -1,1 +1,30 @@
-{"__resolveType":"site/sections/Header.tsx"}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Sobre nós",
+        "url": "/sobre-nos"
+      },
+      {
+        "label": "Destinos",
+        "url": "/destinos"
+      },
+      {
+        "label": "Pacotes",
+        "url": "/pacotes"
+      }
+    ],
+    "buttons": [
+      {
+        "id": "Contato",
+        "href": "#",
+        "text": "Contato"
+      }
+    ]
+  }
+}
