@@ -1,1 +1,30 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Quem Somos",
+        "url": "/quem-somos"
+      },
+      {
+        "label": "Destinos",
+        "url": "/destinos"
+      },
+      {
+        "label": "Pacotes",
+        "url": "/pacotes"
+      }
+    ],
+    "buttons": [
+      {
+        "id": "Contato",
+        "href": "#",
+        "text": "Contato"
+      }
+    ]
+  }
+}
